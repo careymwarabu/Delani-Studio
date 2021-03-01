@@ -1,38 +1,38 @@
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        #main {
-            background: blueviolet;
-            background: wheat;
-            height: 100vh;
-        }
-        
-        #about {
-            height: 100vh;
-            text-align: center;
-            line-height: 3rem;
-            background: cyan;
-            background: whitesmoke;
-        }
-        
-        a:link,
-        a:visited {
-            background-color: magenta;
-            color: white;
-            padding: 14px 25px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-        }
-        
-        a:hover,
-        a:active {
-            background-color: wheat;
-        }
-        
-        nav {
-            padding: 20px;
-            background-color: turquoise;
-        }
+#main {
+    height: 100vh;
+    background-image: url("./assets/backgrounds/h_img.jpg");
+    background-size: cover;
+}
+
+#service {
+    height: 80vh;
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#Portfolio img {
+    max-width: 100%;
+}
+
+#contact {
+    background-image: url("./assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 70vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.designHidden {
+    display: none;
+}
+
+.developmentHidden {
+    display: none;
+}
+
+.productManagementHidden {
+    display: none;
+}
