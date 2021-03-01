@@ -5,13 +5,14 @@
 }
 
 #service {
-    height: 80vh;
+    height: 50vh;
     background-image: url("/assets/backgrounds/s_image.jpg");
     background-size: cover;
+    color: white;
 }
 
 #Portfolio img {
-    max-width: 100%;
+    max-width: 50vh;
 }
 
 #contact {
