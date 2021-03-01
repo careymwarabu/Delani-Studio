@@ -7,92 +7,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css " rel="stylesheet " integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl " crossorigin="anonymous ">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
+
 
 </head>
 
 <body>
-    <div style="background-image:url(_Delani Studio.jpg);"></div>
-    <div class="container mt-3 border p-3">
-        <div class="row p-3">
-            <div class="col">
+    <div class="container">
 
+        <div id="main">
+            <div class="row text-white">
+                <div class="col-12">
+                    <img src="./assets/logo/logo.png" alt="" srcset="">
+                    <h1> WELCOME <br> TO DELANI STUDIO</h1>
+                </div>
+                <div class="col-12">
+                    <img src="./assets/mouse_click.png" alt="" srcset="">
+
+                </div>
             </div>
-            <h1 style="text-align: center;"> <span id="author">DELANI STUDIO</span></h1>
         </div>
-    </div>
-    <nav>
-        <a href="#main">Home</a>
-        <a href="#about">About</a>
-        <a href="#service">Service</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="Us">
-        <p>Delani studio approaches design, development and product management</p> <br>
 
-        <p class="toggle">look at our image!</p>
-        <img src="./_Delani Studio.jpg" id="delani" width="500px" height="500px" alt="show/hide">
+        <div id="about">
+            <div class="about">
+                <div class="row">
+                    <div class="col-12">
+                        <h1> About Us.</h1>
 
-        <div class="row">
-            <div class="col-md-6">
-                <button id="toggle-btn" type="button" class="btn btn-primary">Toggle</button>
+                        <p>
+                            When you work with us,you are part of a team of committed collaborators. All aspects of our software development process are intergrated,interactive and agile. <br> Our approach unifies design, development and product managrment
+                            to create exceptional products. <br> We start each project by understanding your business goals,the user's needs and the productrequirements. <br> Then we help translate them into effective and elegant solutions. <br>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6">
-                <button id="add" type="button" class="btn btn-primary">Add</button>
-                <button id="remove" type="button" class="btn btn-primary">Remove</button>
-
-            </div>
-
-
         </div>
-    </div>
 
-    <div id="about">
-        <div class="about">
-            <h1 style="text-align: center;">About us.</h1>
-            <p>
-                When you work with us,you are part of a team of committed collaborators. All aspects of our software development process are intergrated,interactive and agile. <br> Our approach unifies design, development and product managrment to create
-                exceptional products. <br> We start each project by understanding your business goals,the user's needs and the productrequirements. <br> Then we help translate them into effective and elegant solutions. <br>
-            </p>
+        <div id="service">
+            <div class="service">
+                <div class="row">
+                    <div class="col-12">
 
-            <div id="service">
-                <div class="service">
-                    <h1 style="text-align: center;">What we do.</h1>
-                    <p>
-                        Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. <br> The outcome of the scoping session is proposal or high-level statement of work. <br> Based
-                        on your requirement,we can provide a complete offering or just the pieces you need. <br>
-                    </p>
-                    <div class="container">
-                        <div id="contact">
-                            <h1>Contact us.</h1>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else</div>
-                                </div>
-                                <textarea name=" message" style="width: 600px; height: 200px" ;>
-                                        Comment
-                                    </textarea><br>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
+                        <h1>Services.</h1>
+                        <p>
+                            Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. <br> The outcome of the scoping session is proposal or high-level statement of work. <br> Based
+                            on your requirement,we can provide a complete offering or just the pieces you need.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="whatWeDo">
+            <div class="row">
+                <div class="col-12">
+                    <h1>What we do.</h1>
+
+                </div>
+                <div class="col-4 designClick">
+                    <img src="./assets/services_icons/design_icon.png" alt="" srcset="" class="designVisible">
+                    <h5>DESIGN</h5>
+                    <div class="designHidden">
+                        <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and visual design and user experience testing</p>
+                        <p>Thoughout your project, our designers create and implement visual design and workflows,solicit user feedback and work with you to make sure what gets built is what is needed.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-4 developmentClick">
+                    <img src="./assets/services_icons/dev_icon.png" alt="" srcset="" class="developmentVisible">
+                    <h5>DEVELOPMENT</h5>
+                    <div class="developmentHidden">
+                        <p>All Engineers are fluent in the latest enterprise, mobile abd web development technologies.
+                        </p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair-programming.</p>
+                    </div>
+                </div>
+
+                <div class="col-4 productManagementClick">
+                    <img src="./assets/services_icons/product_icon.png" alt="" srcset="" class="productManagementVisible">
+                    <h5>PRODUCT MANAGEMENT</h5>
+                    <div class="productManagementHidden">
+                        <p>Planing and developing is iterative. Beacause we are constantly coding and testing, the products we build are always ready to go live.</p>
+                        <p>This iterative process allows for changes as business requirements evolve</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Porfolio">
+            <div class="row">
+                <div class="col-12">
+                    <h1>PORTFOLIO</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="./assets/portfolio/work4.jpg" alt="" srcset="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/portfolio/work3.jpg" alt="" srcset="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/portfolio/work2.jpg" alt="" srcset="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/portfolio/work1.jpg" alt="" srcset="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="./assets/portfolio/work5.jpg" alt="" srcset="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/portfolio/work6.jpg" alt="" srcset="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/portfolio/work7.jpg" alt="" srcset="">
+                </div>
+                <div class="col-3">
+                    <img src="./assets/portfolio/work8.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact mt-5">
+                <div class="row text-white">
+                    <div class="col-12">
+                        <h1> CONTACT US.</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" name="name" id="Name" placeholder="Name...">
+                    </div>
+                    <div class="col-6">
+                        <input type="email" name="email" id="emailAddress" placeholder="Email...">
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your message here..."></textarea>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./assets/social_icons/behance.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/dribble.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/facebook.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/flickr.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/g_plus.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/pinterest.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/skype.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="assets/social_icons/stumble_upon.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/twitter.png" alt="" srcset="">
+                </div>
+                <div class="col-1">
+                    <img src="./assets/social_icons/you_tube.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
     </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js " integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=" anonymous "></script>"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js " integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=" anonymous "></script>
     <script src="./script.js"></script>
     <script src="https://ajax.googleapis.com/libs/jquery-3.3.1/jquery.min.js "></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#toggle-btn').on("click", function(e) {
-                $('#delani').toggle('slow');
-            });
-        });
-    </script>
 
 </body>
 
